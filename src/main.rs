@@ -22,5 +22,5 @@ fn handle_connection(mut stream: TcpStream) {
 		.collect();
 	
 	println!("Request: {:#?}", http_request);
-	println!("Stream Handled!");
+
 }
